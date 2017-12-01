@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Tabla de Multiplicar</title>
+</head>
+
+<body>
+        <table class="table table-striped">
+
+            <script>
+                var x = prompt("Inserta un valor de l'1 al 10");
+                x = parseInt(x);
+
+                if (x <= 10) {
+                    document.write("<h1>"Tabla del  + x + "</h1>");
+
+
+                    for (y = 0; y <= 10; y++) {
+                        document.write("<tr><td>");
+                        document.write(" +x+ "x" +y+ "=" +x*y+ ");
+                        document.write("</td></tr>");
+                    }
+
+
+                } else {
+                    window.alert("El valor introduit no és vàlid");
+                }
+
+            </script>
+        </table>
+    
+</body>
+
+</html>
